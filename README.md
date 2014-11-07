@@ -1,8 +1,6 @@
 jLay - Communication Framework - with a Relay
 ---------------------------------------
 
-
-
 Components
 -------
 
@@ -12,6 +10,10 @@ Components
 - jLay-CommonMessages (Java projects with messages - optional dependency)
 
 
+External dependencies
+--------------
+
+- MongoDB
 
 
 (under development)
