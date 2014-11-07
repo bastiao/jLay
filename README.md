@@ -28,7 +28,8 @@ GlobalSettings.agentName = "agent2";
 CommunicationManager com = new CommunicationManager(null, 0, "agent2", false, null);
            
 
-GeneralMessage m = new GeneralMessage(aet, com2.destinationChannel, com2.getIdNextMessage(), "requestChannel");
+GeneralMessage m = new GeneralMessage(aet, com2.destinationChannel, 
+                      com2.getIdNextMessage(), "requestChannel");
 com.initiateComm();
 CommunicationManager com2 = new CommunicationManager(null, 0, "agent2", true, "agent1");
            
